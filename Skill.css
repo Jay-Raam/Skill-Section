@@ -1,0 +1,140 @@
+/* Skill start */
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+.skills h1 {
+    font-size: 56px;
+    font-weight: 500;
+    color: #fbfbfb;
+font-family: 'Cinzel', serif;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 2.5vh;
+}
+
+.skill-card {
+    height: 20vw;
+    width: 20vw;
+    background-color: #3d3e42;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5vh;
+    transition: all ease 0.5s;
+}
+
+.skill-card:hover {
+    background-color: #fec86a;
+}
+
+.skill-card img {
+    height: 7.5vw;
+    width: 7.5vw;
+    object-fit: contain;
+}
+
+.skill-card h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fbfbfb;
+    font-family: 'Vidaloka', serif;
+}
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 992px) {
+    .skills {
+        padding: 50px 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills {
+        padding: 50px 30px;
+    }
+    .cards {
+        margin-top: 30px;
+    }
+    .skill-card {
+        height: 25vw;
+        width: 25vw;
+    }
+    .skill-card img {
+        height: 10vw;
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .skills {
+        padding: 40px 20px;
+    }
+    .cards {
+        margin-top: 20px;
+    }
+    .skill-card {
+        height: 40vw;
+        width: 40vw;
+    }
+    .skill-card img {
+        height: 15vw;
+        width: 15vw;
+    }
+    .skills h1 {
+        font-size: 36px;
+    }
+    .skill-card h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .skills {
+        padding: 30px 10px;
+    }
+    .cards {
+        margin-top: 10px;
+    }
+    .skill-card {
+        height: 50vw;
+        width: 50vw;
+    }
+    .skill-card img {
+        height: 20vw;
+        width: 20vw;
+    }
+    .skills h1 {
+        font-size: 24px;
+    }
+    .skill-card h2 {
+        font-size: 16px;
+    }
+}
