@@ -21,11 +21,11 @@ Organize: Arrange your skills by category or level of proficiency.
 Visibility Settings: Choose whether to display your skills publicly or keep them private.
 ## Installation
 
-Install Skill-Section with npm
+Install Skill-Section with clone
 
 ```bash
-  npm install https://github.com/Jay-Raam/Skill-Section.git
-  cd my-project
+  git clone https://github.com/Jay-Raam/Skill-Section.git
+  cd Skill-Section
 ```
     
 ## Support
